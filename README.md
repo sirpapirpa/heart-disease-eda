@@ -22,13 +22,20 @@ The analysis focuses on standardizing medical features into more readable labels
 
 ## Key visualisations and analytical findings
 
+
 ### 1. Age distribution vs heart disease risk
 * **Insight:** Boxplot analysis shows that patients diagnosed with heart disease have a higher median age (~58 years) compared to healthy individuals. Age exhibits a clear positive trend with heart diseases.
 * **Outlier note:** A notable outlier exists, a patient around 35 years old diagnosed with heart disease, illustrating that while age increases this risk, early onset can occur.
+![Age Distribution vs heart disease risk](age.plot.png)
+
 
 ### 2. Cholesterol levels vs heart disease risk
 * **Insight:** Comparing cholesterol levels across both groups reveals similar median values. This indicates that a high cholesterol level alone is not a binary indicator in this cohort.
 * **Outlier note:** An extreme outlier (>550 mg/dl) is present in the non-disease group, showing medical data variability where high cholesterol does not automatically indicate an active diagnosis.
+  
+![Cholesterol levels vs heart disease risk](cholesterol.plot.png)
+
 
 ### 3. Chest pain type vs. heart disease risk
 * **Insight:** Countplot distribution demonstrates a significantly stronger correlation between specific chest pain categories and heart disease diagnosis compared to general numeric values like cholesterol. Asymptomatic cases and specific pain types show distinct distribution peaks in affected patients.
+![Chest pain type vs heart disease risk](chest.paintype.png)
